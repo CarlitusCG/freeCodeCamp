@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <h1 id="title">freeCodeCamp Survey Form</h1>
+  <p id="description">Please fill the form with the information needed in each camp</p>
+
+  <form id="survey-form">
+
+    <label for="name" id="name-label">Name:
+      <input id="name" type="text" required placeholder="Name">
+    </label>
+
+    <label for="email" id="email-label">Email:
+      <input id="email" type="email" required placeholder="Email">
+    </label>
+
+    <label for="number" id="number-label">Age:
+      <input id="number" type="number" min="4" max="4000" placeholder="Age">
+    </label>
+
+
+    <label for="dropdown" id="dropdown-label">Gender:
+      <select id="dropdown">
+        <option>Select</option>
+        <option>Male</option>
+        <option>Female</option>
+        <option>Other</option>
+      </select>
+    </label>
+
+    <container id="interests">
+      <p id="areas-interest">Areas of Interest</p>
+      <!-- <label for="name" id="name-label">Areas of Interest:</label> -->
+      <label for="radio-IT" id="name-label"><input type="radio" name="radio-button" id="radio-IT" value="radio-IT">IT in general</label>
+
+      <label for="radio-CS" id="name-label"><input type="radio" name="radio-button" id="radio-CS" value="radio-CS">Computer
+        Science</label>
+
+      <label for="radio-DS" id="name-label"><input type="radio" name="radio-button" id="radio-DS" value="radio-DS">Data Science</label>
+
+      <label for="radio-AI" id="name-label"><input type="radio" name="radio-button" id="radio-AI" value="radio-AI">Artificial
+        Intelligence:</label>
+
+      <label for="radio-UXUI" id="name-label"><input type="radio" name="radio-button" id="radio-UXUI" value="radio-UXUI">UX/UI
+        Design</label>
+
+    </container>
+    <label for="checkboxes" id="dropdown-label">How did you hear about us?:
+      <input type="checkbox" name="checkboxes" id="checkboxes" value="checkbox">Social Media
+      <input type="checkbox" name="checkboxes" id="checkboxes" value="checkbox">Through Friends
+    </label>
+    
+    <label for="textarea">
+      <textarea id="textarea" placeholder="Any additional comments?"></textarea>
+    </label>
+
+    <label for="submit">
+      <input type="submit" id="submit" value="Submit">
+    </label>
+  </form>
+</body>
