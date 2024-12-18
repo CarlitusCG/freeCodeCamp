@@ -6,12 +6,12 @@ header{
     z-index: 1000;
     align-items: center;
 }
-/* nav {
+nav, img {
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 1000;
-} */
+}
 
 @media screen and (max-width: 768px){
     header{
